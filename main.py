@@ -150,12 +150,12 @@ async def unban(ctx, *, member):
 @bot.command()
 async def help(ctx): 
     commands = {
-            "/listgames": "команда для вывода списка игр",
-            "/sgiphy image": "команда для поиска анимированных GIF в Интернете",
-            "/help": "команда для отображения текста приветствия бота и списка команд",
-            "/kick username": "команда для кика пользователя",
-            "/ban username": "команда для бана пользователя",
-            "/unban username": "команда для разбана пользователя",
+            "listgames": "команда для вывода списка игр",
+            "sgiphy image": "команда для поиска анимированных GIF в Интернете",
+            "help": "команда для отображения текста приветствия бота и списка команд",
+            "kick username": "команда для кика пользователя",
+            "ban username": "команда для бана пользователя",
+            "unban username": "команда для разбана пользователя",
         }
     help_text = "Hello, dear user! The following commands are available: \n"
     for (key) in (commands):  # generate help text out of the commands dictionary defined at the top
